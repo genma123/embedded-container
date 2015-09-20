@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<dataset>
+	<DEPARTMENT DEPT_ID="1" NAME="legal"/>
+	<DEPARTMENT DEPT_ID="2" NAME="accounting"/>
+    <EMPLOYEE EMP_ID="1" FNAME="david" LNAME="chu" DEPT_ID="1"/>
+    <EMPLOYEE EMP_ID="2" FNAME="jessica" LNAME="jones" DEPT_ID="1"/>
+    <EMPLOYEE EMP_ID="3" FNAME="juan" LNAME="gomez" DEPT_ID="2"/>
+</dataset>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar version="3.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd">
+  <display-name>StandaloneEJBWithDBUnitEJB</display-name>
+  <enterprise-beans >
+  	<session>
+  		<description>Standalone EJB With DBUnit</description>
+  		<ejb-name>StandaloneEJBWithDBUnit</ejb-name>
+  		<local-bean />
+  		<ejb-class>
+  			us.magicuser.standaloneejb.ejb.StandaloneEJBWithDBUnit
+  		</ejb-class>
+  		<session-type>Stateless</session-type>
+  		<init-on-startup>false</init-on-startup>
+  		<concurrency-management-type>
+  			Container
+  		</concurrency-management-type>
+  		<transaction-type>Container</transaction-type>
+  	</session>
+  	
+</enterprise-beans>
+  <ejb-client-jar>StandaloneEJBWithDBUnitEJBClient.jar</ejb-client-jar> 
+ </ejb-jar>
